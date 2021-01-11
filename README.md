@@ -16,6 +16,12 @@
 
 3.  ## What is the difference between while and do-while loops in JavaScript?
 
+    In **While _(Entry Control)_** loop, the condition tested at the beginning of the loop, and if the condition is True, statements inside the loop will execute. It means the While loop executes the code block only if the condition is True.
+
+    In **Do While _(Exit Control)_** loop, the condition is tested at the end. So, Do While executes the statements in the code block at least once even if the condition Fails.
+
+    ***
+
 4.  ## What language constructions do you use for iterating over object properties and array items?
 
 5.  ## What are the promises and how do they work?
@@ -60,7 +66,7 @@
 
 24. ## What is the difference between == and ===?
 
-    > **==** abstract equality operator
+    > **==** abstract equality operator  
     > **===** strict equality operator
 
     The **==** operator will compare for equality after doing any necessary type conversions. The **===** operator will not do the conversion, so if two values are not the same type === will simply return false. Both are equally quick.
