@@ -1,28 +1,52 @@
 1.  ## What are the primitive data types in JS?
 
-    There are 6 primitive data types: string, number, bigint, boolean, undefined, and symbol.
+    There are 6 primitive data types:
+
+    1. string
+    2. number
+    3. bigint
+    4. boolean
+    5. undefined
+    6. symbol
 
     ***
 
 2.  ## What's the difference between a variable that is: null, undefined or undeclared?
 
-    **_undefined_** is a variable that has been declared but no value exists and is a type of itself ‘undefined’.
+    **`undefined`** is a variable that has been declared but no value exists and is a type of itself ‘undefined’.
 
-    **_null_** is a value of a variable and is a type of object.
+    **`null`** is a value of a variable and is a type of object.
 
-    A variable is **_undeclared_** when it does not use the var keyword. It gets created on the global object, thus it operates in a different space as the declared variables.
+    A variable is **`undeclared`** when it does not use the var keyword. It gets created on the global object, thus it operates in a different space as the declared variables.
 
     ***
 
 3.  ## What is the difference between while and do-while loops in JavaScript?
 
-    In **While _(Entry Control)_** loop, the condition tested at the beginning of the loop, and if the condition is True, statements inside the loop will execute. It means the While loop executes the code block only if the condition is True.
+    In _**While** `(Entry Control)`_ loop, the condition tested at the beginning of the loop, and if the condition is True, statements inside the loop will execute. It means the While loop executes the code block only if the condition is True.
 
-    In **Do While _(Exit Control)_** loop, the condition is tested at the end. So, Do While executes the statements in the code block at least once even if the condition Fails.
+    In _**Do While** `(Exit Control)`_ loop, the condition is tested at the end. So, Do While executes the statements in the code block at least once even if the condition Fails.
 
     ***
 
 4.  ## What language constructions do you use for iterating over object properties and array items?
+
+    For iterating over array :-
+
+    - for loop
+    - forEach
+    - every
+    - some
+    - map
+    - filter
+    - reduce<br><br>
+
+    For iterating object properties :-
+
+    - for...in
+    - Object.getOwnPropertyNames()
+
+    ***
 
 5.  ## What are the promises and how do they work?
 
@@ -40,6 +64,10 @@
 
 11. ## Can you describe the main difference between the Array.forEach() loop and Array.map() methods and why you would pick one versus the other?
 
+    The <span style="color:#ff2e63;">_Array.forEach()_</span> method receives a function as an argument and executes it once for each array element. It returns _`undefined`_.
+
+    The <span style="color:#ff2e63;">_Array.map()_</span> method receives a function as a argument. Then it applies it on each element and returns an _`entirely new array`_ populated with the results of calling the provided function.
+
 12. ## What's a typical use case for anonymous functions?
 
 13. ## What's the difference between host objects and native objects?
@@ -50,7 +78,11 @@
 
 16. ## Can you explain what Function.call and Function.apply do? What's the notable difference between the two?
 
+    Both <span style="color:#ff2e63;">Function.prototype.call</span> and <span style="color:#ff2e63;">Function.prototype.apply</span> are used to set the value of _`this`_ explicitly. While call takes a list of arguments in comma separated format, apply takes an array with list of arguments.
+
 17. ## Explain Function.prototype.bind.
+
+    <span style="color:#ff2e63;">Function.prototype.bind</span> is used to set _`this`_ explicitly. It returns a function with given this context that can be called later.
 
 18. ## What's the difference between feature detection, feature inference, and using the UA string?
 
