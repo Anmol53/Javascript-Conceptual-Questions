@@ -56,7 +56,7 @@
 
 8.  ## Explain how this works in JavaScript.
 
-    - ### Can you give an example of one of the ways that working with this has changed in ES6?
+- ### Can you give an example of one of the ways that working with this has changed in ES6?
 
 9.  ## Explain how prototypal inheritance works.
 
@@ -98,8 +98,7 @@
 
 24. ## What is the difference between == and ===?
 
-    > **==** abstract equality operator  
-    > **===** strict equality operator
+    > **==** abstract equality operator<br> **===** strict equality operator
 
     The **==** operator will compare for equality after doing any necessary type conversions. The **===** operator will not do the conversion, so if two values are not the same type === will simply return false. Both are equally quick.
 
