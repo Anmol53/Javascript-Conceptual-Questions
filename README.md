@@ -60,7 +60,11 @@
 
     ***
 
-8.  ## Explain how `this` works in JavaScript.<ol type="a"><li>Can you give an example of one of the ways that working with `this` has changed in ES6?</li></ol>
+8.  <h2> Explain how `this` works in JavaScript.
+        <ol type="a">
+            <li>Can you give an example of one of the ways that working with `this` has changed in ES6?</li>
+        </ol>
+    </h2>
 
     ***
 
