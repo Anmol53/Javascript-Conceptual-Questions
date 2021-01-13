@@ -60,11 +60,7 @@
 
     ***
 
-8.  ## Explain how `this` works in JavaScript.
-
-    <ol type="a">
-        <li>Can you give an example of one of the ways that working with `this` has changed in ES6?</li>
-    </ol>
+8.  ## Explain how `this` works in JavaScript.<ol type="a"><li>Can you give an example of one of the ways that working with `this` has changed in ES6?</li></ol>
 
     ***
 
@@ -168,13 +164,7 @@
 
     ***
 
-30. ## Explain the difference between mutable and immutable objects.
-
-    <ol type="a">
-        <li>What is an example of an immutable object in JavaScript?</li>
-        <li>What are the pros and cons of immutability?</li>
-        <li>How can you achieve immutability in your own code?</li>
-    </ol>
+30. ## Explain the difference between mutable and immutable objects.<ol type="a"><li>What is an example of an immutable object in JavaScript?</li><li>What are the pros and cons of immutability?</li><li>How can you achieve immutability in your own code?</li></ol>
 
     ***
 
@@ -182,11 +172,7 @@
 
     ***
 
-32. ## What is an event loop?
-
-    <ol type="a">
-        <li>What is the difference between call stack and task queue?</li>
-    </ol>
+32. ## What is an event loop?<ol type="a"><li>What is the difference between call stack and task queue?</li></ol>
 
     ***
 
