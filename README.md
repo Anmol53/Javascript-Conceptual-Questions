@@ -35,9 +35,9 @@
 
 5.  ## Why is it called a Ternary operator, what does the word "Ternary" indicate?
 
-    **_Ternary_** means operands with three parameter. This is a one-line shorthand for an if-else statement. It is also called a conditional operator.
+    <span style="color:#DA0037;">**_Ternary_**</span> means operands with three parameter. This is a one-line shorthand for an if-else statement. It is also called a conditional operator.
 
-    `conditional ? truethy_block : falsey_block`
+    > conditional ? truethy_block : falsey_block
 
     ***
 
@@ -51,7 +51,7 @@
 
 8.  ## Can you give an example for destructuring an object or an array?
 
-    Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+    <span style="color:#DA0037;">**_Destructuring_**</span> is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
     Below is the example of Array Destructuring.
 
@@ -98,29 +98,29 @@
 
 10. ## Can you describe the main difference between the Array.forEach() loop and Array.map() methods and why you would pick one versus the other?
 
-    The <span style="color:#0f8e4f;">_Array.forEach()_</span> method receives a function as an argument and executes it once for each array element. It returns _`undefined`_.
+    The <span style="color:#DA0037;">**_Array.forEach()_**</span> method receives a function as an argument and executes it once for each array element. It returns _`undefined`_.
 
-    The <span style="color:#0f8e4f;">_Array.map()_</span> method receives a function as a argument. Then it applies it on each element and returns an _`entirely new array`_ populated with the results of calling the provided function.
+    The <span style="color:#DA0037;">**_Array.map()_**</span> method receives a function as a argument. Then it applies it on each element and returns an _`entirely new array`_ populated with the results of calling the provided function.
 
     ***
 
 11. ## What is the difference between while and do-while loops in JavaScript?
 
-    In _**While** `(Entry Control)`_ loop, the condition tested at the beginning of the loop, and if the condition is True, statements inside the loop will execute. It means the While loop executes the code block only if the condition is True.
+    In <span style="color:#DA0037;">**_While_**</span> _`(Entry Control)`_ loop, the condition tested at the beginning of the loop, and if the condition is True, statements inside the loop will execute. It means the While loop executes the code block only if the condition is True.
 
-    In _**Do While** `(Exit Control)`_ loop, the condition is tested at the end. So, Do While executes the statements in the code block at least once even if the condition Fails.
+    In <span style="color:#DA0037;">**_Do While_**</span> _`(Exit Control)`_ loop, the condition is tested at the end. So, Do While executes the statements in the code block at least once even if the condition Fails.
 
     ***
 
 12. ## What is the definition of a first-class function?
 
-    A programming language is said to have **First-class functions** when functions in that language are treated like any other variable. In such a language, a function can be assigned as a value to a variable, can be passed as an argument to other functions, and can be returned by another function. Javascript supports First-class functions, In JavaScript functions are a _special type of object_.
+    A programming language is said to have <span style="color:#DA0037;">**_First-class functions_**</span> when functions in that language are treated like any other variable. In such a language, a function can be assigned as a value to a variable, can be passed as an argument to other functions, and can be returned by another function. Javascript supports First-class functions, In JavaScript functions are a _special type of object_.
 
     ***
 
 13. ## What is the definition of a higher-order function?
 
-    A **higher-order function** is a function that accepts functions as parameters and/or returns a function.
+    A <span style="color:#DA0037;">**_higher-order function_**</span> is a function that accepts functions as parameters and/or returns a function.
 
     Read this article [Understanding Higher-Order Functions in JavaScript](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad) for deep understanding.
 
@@ -138,7 +138,7 @@
 
 16. ## Explain event delegation.
 
-    **Event delegation** allows us to add event listeners to the parent instead of having to add event listeners individually for each child. It uses _`event bubbling`_, where the event on the child is bubbled up to the parent. When the event bubbles up to the parent element, we can check the event object's target property to gain a reference to the actually clicked child element. This becomes more handy when child elements are frequently added and removed from the parent element.
+    <span style="color:#DA0037;">**_Event delegation_**</span> allows us to add event listeners to the parent instead of having to add event listeners individually for each child. It uses _`event bubbling`_, where the event on the child is bubbled up to the parent. When the event bubbles up to the parent element, we can check the event object's target property to gain a reference to the actually clicked child element. This becomes more handy when child elements are frequently added and removed from the parent element.
 
     ***
 
@@ -166,13 +166,13 @@
 
 21. ## Can you explain what Function.call and Function.apply do? What's the notable difference between the two?
 
-    Both <span style="color:#0f8e4f;">Function.prototype.call</span> and <span style="color:#0f8e4f;">Function.prototype.apply</span> are used to set the value of _`this`_ explicitly. While call takes a list of arguments in comma separated format, apply takes an array with list of arguments.
+    Both <span style="color:#DA0037;">**_Function.prototype.call_**</span> and <span style="color:#DA0037;">**_Function.prototype.apply_**</span> are used to set the value of _`this`_ explicitly. While call takes a list of arguments in comma separated format, apply takes an array with list of arguments.
 
     ***
 
 22. ## Explain Function.prototype.bind.
 
-    <span style="color:#0f8e4f;">Function.prototype.bind</span> is used to set _`this`_ explicitly. It returns a function with given this context that can be called later.
+    <span style="color:#DA0037;">**_Function.prototype.bind_**</span> is used to set _`this`_ explicitly. It returns a function with given this context that can be called later.
 
     ***
 
