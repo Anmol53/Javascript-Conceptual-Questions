@@ -98,9 +98,9 @@
 
 10. ## Can you describe the main difference between the Array.forEach() loop and Array.map() methods and why you would pick one versus the other?
 
-    The <span style="color:##15648B;">_Array.forEach()_</span> method receives a function as an argument and executes it once for each array element. It returns _`undefined`_.
+    The <span style="color:#ff2e63;">_Array.forEach()_</span> method receives a function as an argument and executes it once for each array element. It returns _`undefined`_.
 
-    The <span style="color:##15648B;">_Array.map()_</span> method receives a function as a argument. Then it applies it on each element and returns an _`entirely new array`_ populated with the results of calling the provided function.
+    The <span style="color:#ff2e63;">_Array.map()_</span> method receives a function as a argument. Then it applies it on each element and returns an _`entirely new array`_ populated with the results of calling the provided function.
 
     ***
 
@@ -166,13 +166,13 @@
 
 21. ## Can you explain what Function.call and Function.apply do? What's the notable difference between the two?
 
-    Both <span style="color:##15648B;">Function.prototype.call</span> and <span style="color:##15648B;">Function.prototype.apply</span> are used to set the value of _`this`_ explicitly. While call takes a list of arguments in comma separated format, apply takes an array with list of arguments.
+    Both <span style="color:#ff2e63;">Function.prototype.call</span> and <span style="color:#ff2e63;">Function.prototype.apply</span> are used to set the value of _`this`_ explicitly. While call takes a list of arguments in comma separated format, apply takes an array with list of arguments.
 
     ***
 
 22. ## Explain Function.prototype.bind.
 
-    <span style="color:##15648B;">Function.prototype.bind</span> is used to set _`this`_ explicitly. It returns a function with given this context that can be called later.
+    <span style="color:#ff2e63;">Function.prototype.bind</span> is used to set _`this`_ explicitly. It returns a function with given this context that can be called later.
 
     ***
 
